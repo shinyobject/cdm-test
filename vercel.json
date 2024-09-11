@@ -1,0 +1,14 @@
+{
+    "headers": [
+      {
+        "source": "/(.*)\\.(woff|woff2|tff|otf)$",
+        "headers": [
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "*"
+          }
+        ]
+      }
+    ]
+  }
+  
